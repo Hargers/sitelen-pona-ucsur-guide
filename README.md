@@ -8,7 +8,7 @@ Due to the standardization of codepoints in the UCSUR, you can now render sitele
 
 # Fonts
 
-The current recomended fonts for sitelen pona are:
+The current recommended fonts for sitelen pona are:
 
 - [Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxhd.shtml)
 
@@ -26,11 +26,11 @@ The current recomended fonts for sitelen pona are:
     
   ![an image preview of sitelen seli kiwen](./images/sitelenselikiwen.png)
     
-  This font by jan Lepeka supports the most recent version of UCSUR (2024-02-20). It's personally my favorite! There are proportional *(glyphs take up varying amounts of space)* and monospaced *(glyphs take up the same amount of space)* versions of the font. Monospaced fonts in general are recommened for sitelen pona (both of the above fonts are monospaced). **sitelen seli kiwen juniko mono**, the monospaced version of sitelen seli kiwen juniko is used in the css below, fyi.
+  This font by jan Lepeka supports the most recent version of UCSUR (2024-02-20). It's personally my favorite! There are proportional *(glyphs take up varying amounts of space)* and monospaced *(glyphs take up the same amount of space)* versions of the font. Monospaced fonts in general are recommenced for sitelen pona (both of the above fonts are monospaced). **sitelen seli kiwen juniko mono**, the monospaced version of sitelen seli kiwen juniko is used in the css below, fyi.
 
 If you are unsure of which font to pick, I would recommend nasin nanpa.
 
-Once you have installed any of these fonts you are done, in many applications sitelen pona should render correctly, with the exception of websites, as they do not fall back to sitelen pona. This is an issue, because some applications are actually websites, with a notable example being Discord. 
+Once you have installed any of these fonts you are done, in many applications sitelen pona should render correctly, with the exception of websites, as they do not fall back to sitelen pona. This is an issue, because some applications are actually websites, with a notable example being Discord.
 
 ## Discord
 
@@ -51,7 +51,7 @@ Simply install the fake Helvetica Neue font, and it should result in Discord dis
 - Download the above font
 - Copy the file to `~/.local/share/fonts/`
 
-This method does not work on macOS or mobile devices. 
+This method does not work on macOS or mobile devices.
 
 ### Desktop
 
@@ -140,15 +140,15 @@ The above method may not be supported on your device. One alternative is to use 
     * Please follow the [installation instructions](https://github.com/Aliucord/Aliucord?tab=readme-ov-file#-installation) in the readme
 
 2. Install the Themer plugin, which will allow you to change Aliucord's font.
-    * One method for doing this is pasting in the zip link (<https://github.com/Vendicated/AliucordPlugins/blob/builds/Themer.zip?raw=true>) into a Discord message, then clicking the link in Aliucord. 
+    * One method for doing this is pasting in the zip link (<https://github.com/Vendicated/AliucordPlugins/blob/builds/Themer.zip?raw=true>) into a Discord message, then clicking the link in Aliucord.
 
-3. In Aliucord, go to <kbd>User Settings</kbd>  (click your pfp in the botton right) -> <kbd>Plugin Settings</kbd> (near the bottom) -> <kbd>Themer</kbd> and toggle <kbd>Enable Custom Fonts</kbd>.
+3. In Aliucord, go to <kbd>User Settings</kbd>  (click your pfp in the bottom right) -> <kbd>Plugin Settings</kbd> (near the bottom) -> <kbd>Themer</kbd> and toggle <kbd>Enable Custom Fonts</kbd>.
 
 4. Click <kbd>New Theme</kbd>, enter a name for your new theme, toggle the theme, and click the pencil icon on your theme to edit it.
 
 5. On the new menu click the <kbd>Fonts</kbd> button, then click the `*` and paste in this link: <https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.0/nasin-nanpa-4.0.0-UCSUR.otf>.
 
-    This is nasin-nanpa, which is the font that'll allow you to view sitelen pona
+    This is nasin-nanpa, which is the font that'll allow you to view sitelen pona.
 
 6. Click off the popup, then press the save button in the bottom right. When it prompts you to restart, restart.
 
@@ -170,7 +170,7 @@ Now that sitelen pona is rendering properly, we need to be able to type it!
 
 There are two input methods for Windows: nasin Ajemi and nasin AHK
 
-You can download & install nasin Ajemi from [this link](https://github.com/dec32/Ajemi/releases/latest), see the [README](https://github.com/dec32/Ajemi) on how to use it. 
+You can download & install nasin Ajemi from [this link](https://github.com/dec32/Ajemi/releases/latest), see the [README](https://github.com/dec32/Ajemi) on how to use it.
 
 For nasin AHK, there is an [Auto Hotkey Script](./ahk-scripts/sitelen-pona-4.0.ahk?raw=1) (download with <kbd>Ctrl</kbd>+<kbd>S</kbd>) by jan Itan (`@etbcor`) for input. Write the toki pona word and then a \` (the letter under escape) to convert it into sitelen pona. You can also write `` [` `` and `` ]` `` for cartouches, as well as `` (` `` and `` )` `` for long glyphs. There is also a ["small" version of the script](./ahk-scripts/stl-pon-4.0.ahk?raw=1) that uses 3 letter codes for each word instead of typing the whole word.
 
@@ -186,7 +186,7 @@ jan Tepo (`@tbodt`) has made an [input plugin for macOS](./sitelen-pona.inputplu
 
 The ~~only~~ (nasin sitelen Wakalito li lon · ilo ante kin li lon) current supported input engine for Linux is ibus, for this to work, you need both `ibus`, and `ibus-tables` installed. For installation commands/instructions, see [this page](https://github.com/ibus/ibus/wiki/ReadMe#install-binary-packages).
 
-> During installation, regarding Ubuntu, feel free to remove `ibus-qt4` from the `apt-get insall` command, which has been removed from Ubuntu's main repository.
+> During installation, regarding Ubuntu, feel free to remove `ibus-qt4` from the `apt-get install` command, which has been removed from Ubuntu's main repository.
 
 jan Komi (`@cominixo`) has created an [ibus input table](./ibus-tables/sitelen-pona-4.0.ibus-table?raw=1) *(click the link & download with <kbd>Ctrl</kbd>+<kbd>S</kbd>)*. Copy it to a directory of your choice, and then open a terminal in the same directory. Run these commands to install it:
 
@@ -230,7 +230,7 @@ ibus-daemon -drxR
 
 6. Add the sitelen pona input method. Go to `Input Methods` -> `Add` -> `English` -> *(scroll all the way down to)* `sitelen pona`
 
-7. If needed, go to your settings application and add a new input source of the name "English (sitelen pona)" 
+7. If needed, go to your settings application and add a new input source of the name "English (sitelen pona)"
 
     - Feel free to search for "sitelen pona" and select anything similar, if "English (sitelen pona)" is not present
 
@@ -264,7 +264,7 @@ nasin:
 	  - (<kbd>Win</kbd>+<kbd>R</kbd>, type `%appdata%` to get to `\Roaming`
 
     - macOS: `/Users/<user>/Library/Preferences/espanso/match/packages`
-	
+
     - Linux: `~/.config/espanso/match/packages`
 
 4. From where you've found your Espanso packages folder (`<wherever>/espanso/match/packages`), navigate to `<wherever>/espanso/config` and open the file `default.yml` in a text editor
