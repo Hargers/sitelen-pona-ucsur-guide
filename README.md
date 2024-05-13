@@ -293,8 +293,8 @@ nasin:
 | `󱦜` ("·" sp dot)                           | `3`                     |
 | `󱦐` ("[" cartouche start)                  | `c1`                    |
 | `󱦑` ("]" cartouche end)                    | `c2`                    |
-| `「` (cjk start quote)                     | `q1`                    |
-| `」` (cjk end quote)                       | `q2`                    |
+| `「` ("<" cjk start quote)                     | `q1`                    |
+| `」` (">" cjk end quote)                       | `q2`                    |
 | `󱦗` ("(" start left-combining long glyph)   | `b1`                    |
 | `󱦘` (")" end left-combining long glyph)     | `b2`                    |
 | `󱦚` ("{" start right-combining long glyph)  | `d1`                    |
