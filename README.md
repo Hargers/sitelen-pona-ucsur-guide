@@ -6,7 +6,7 @@ o sitelen e sitelen pona lon ilo mute a!
 
 Due to the standardization of codepoints in the UCSUR, you can now render sitelen pona on many desktop applications (Firefox, Discord, etc). In many applications all you need to do is install a UCSUR compatible sitelen pona font, and you are good to go. However there are some quirks, and you need an input engine to be able to easily input these characters, which is the purpose of this guide.
 
-# Fonts
+## Fonts
 
 The current recommended fonts for sitelen pona are:
 
@@ -105,6 +105,8 @@ Simply install [this userstyle](https://userstyles.world/style/14920/sitelen-pon
   <b>List format for instructions (zFont systemwide)</b>
 </summary>
 
+#### zFont
+
 Installing the font:
 
 1. Download [nasin-nanpa-4.0.0-UCSUR.otf](https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.0/nasin-nanpa-4.0.0-UCSUR.otf) or the latest UCSUR version from the [nasin-nanpa releases](https://github.com/ETBCOR/nasin-nanpa/releases) page.
@@ -135,6 +137,8 @@ The above method may not be supported on your device. One alternative is to use 
 <summary>
   <b>List format for instructions (Aliucord)</b>
 </summary>
+
+#### Aliucord
 
 1. Install Aliucord from its [Github page](https://github.com/Aliucord/Aliucord/releases)
     * Please follow the [installation instructions](https://github.com/Aliucord/Aliucord?tab=readme-ov-file#-installation) in the readme
@@ -277,7 +281,7 @@ nasin:
 
     - A table for triggers -> words can be found on sona.pona.la, [here](https://sona.pona.la/wiki/Wakalito), with a few modifications listed below. This is for the first config file, `wakalito-7-3-2-ucsur.yml`.
 
-#### Modifications
+**Modifications**
 
 | Character                                  | Keys on a QWERTY layout |
 | -------------------------------------------| ----------------------- |
@@ -319,7 +323,7 @@ A table for triggers -> words can be found on sona.pona.la, [here](https://sona.
   <b>List format for modifications</b>
 </summary>
 
-#### Formatting Modifications
+**Formatting Modifications**
 
 | Character                              | Keys on nasin Wakalito layout |
 | ---------------------------------------| ----------------------------- |
@@ -338,7 +342,7 @@ A table for triggers -> words can be found on sona.pona.la, [here](https://sona.
 | `󱦚` (start right-combining long glyph)  | `[[[`                         |
 | `󱦛` (end left-combining long glyph)     | `]]]`                         |
 
-#### nimi sin Modifications
+**nimi sin Modifications**
 
 | Character          | Keys on nasin Wakalito layout |
 | -------------------| ----------------------------- |
