@@ -258,7 +258,7 @@ nasin:
 
 2. Download a config file. There are two:
 
-    - [This file](./wakalito-7-3-2-ucsur.yml?raw=1) uses nasin Wakalito's triggers, and outputs UCSUR
+    - [This file](./wakalito-7-3-2-ucsur.yml?raw=1) uses nasin Wakalito's triggers, updated by jan Lepeka (`@rebeccargb`), and outputs UCSUR
 
     - [This file](./sitelen-pona-espanso.yml?raw=1) uses toki pona word triggers, and outputs UCSUR
 
@@ -279,26 +279,7 @@ nasin:
 
 7. Start writing! *(When you want to toggle Espanso on/off, double tap <kbd>Alt</kbd> on the right side of your keyboard!)*
 
-    - A table for triggers -> words can be found on sona.pona.la, [here](https://sona.pona.la/wiki/Wakalito), with a few modifications listed below. This is for the first config file, `wakalito-7-3-2-ucsur.yml`.
-
-#### Modifications
-
-| Character                                  | Keys on a QWERTY layout |
-| -------------------------------------------| ----------------------- |
-| `　` (fullwidth space)                     | `666`, `   ` (3 spaces) |
-| `‍` ("-" zero width joiner)                 | `aa`                    |
-| `󱦕` ("^" stacking joiner)                   | `gg`                    |
-| `󱦖` ("*" scaling joiner)                    | `hh`                    |
-| `󱦝` (":" sp colon)                         | `6y`                    |
-| `󱦜` ("·" sp dot)                           | `3`                     |
-| `󱦐` ("[" cartouche start)                  | `c1`                    |
-| `󱦑` ("]" cartouche end)                    | `c2`                    |
-| `「` (cjk start quote)                     | `q1`                    |
-| `」` (cjk end quote)                       | `q2`                    |
-| `󱦗` ("(" start left-combining long glyph)   | `b1`                    |
-| `󱦘` (")" end left-combining long glyph)     | `b2`                    |
-| `󱦚` ("{" start right-combining long glyph)  | `d1`                    |
-| `󱦛` ("}" end left-combining long glyph)     | `d2`                    |
+    - A table for triggers -> words can be found on the Keyman help page, [here](https://help.keyman.com/keyboard/sp_wakalito_ucsur/1.0/sp_wakalito_ucsur). This is for the first config file, `wakalito-7-3-2-ucsur.yml`.
 
 ### Keyman
 
