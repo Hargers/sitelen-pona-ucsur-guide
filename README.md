@@ -6,7 +6,7 @@ o sitelen e sitelen pona lon ilo mute a!
 
 Due to the standardization of codepoints in the UCSUR, you can now render sitelen pona on many desktop applications (Firefox, Discord, etc). In many applications, all you need to do is install a UCSUR-compatible sitelen pona font, and you are good to go. However there are some quirks, and you need an input engine to be able to easily input these characters, which is the purpose of this guide.
 
-# Fonts
+### Fonts
 
 The current recommended fonts for sitelen pona are:
 
@@ -95,6 +95,8 @@ Simply install [this userstyle](https://userstyles.world/style/14920/sitelen-pon
 
 ### Android
 
+#### zFont
+
 [This Reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/) by jan Elijo (`u/QuantumAgain`) is a wonderful guide on how to get UCSUR on Android. Regarding viewing sitelen pona, here are the listed steps:
 
 
@@ -126,6 +128,8 @@ Installing the font:
 > You should be able to read this: 󱥞󱤘󱤮󱤉󱥁
 
 </details>
+
+#### Aliucord
 
 > jan Nasaka (`@harger` lon ilo Siko) li pana e sona ni tawa mi. ona li pona mute a! :)
 
@@ -437,7 +441,7 @@ For instructions on installing Keyman sitelen pona keyboards, refer to the [#Key
   <b>List format for modifications</b>
 </summary>
 
-#### Formatting Modifications
+**Formatting Modifications**
 
 | Character                              | Keys on nasin Wakalito layout |
 | ---------------------------------------| ----------------------------- |
@@ -456,7 +460,7 @@ For instructions on installing Keyman sitelen pona keyboards, refer to the [#Key
 | `󱦚` (start right-combining long glyph)  | `[[[`                         |
 | `󱦛` (end left-combining long glyph)     | `]]]`                         |
 
-#### nimi sin Modifications
+**nimi sin Modifications**
 
 | Character          | Keys on nasin Wakalito layout |
 | -------------------| ----------------------------- |
