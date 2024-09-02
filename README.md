@@ -107,9 +107,9 @@ Simply install [this userstyle](https://userstyles.world/style/14920/sitelen-pon
 
 Installing the font:
 
-1. Download [nasin-nanpa-4.0.0-UCSUR.otf](https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.1/nasin-nanpa-4.0.1-UCSUR.otf) or the latest UCSUR version from the [nasin-nanpa releases](https://github.com/ETBCOR/nasin-nanpa/releases) page.
+1. Download [nasin-nanpa-4.0.1-UCSUR.otf](https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.1/nasin-nanpa-4.0.1-UCSUR.otf) or the latest UCSUR version from the [nasin-nanpa releases](https://github.com/ETBCOR/nasin-nanpa/releases) page.
 
-2. Convert nasin-nanpa-4.0.0-UCSUR.otf to [nasin-nanpa-4.0.0-UCSUR.ttf](https://drive.google.com/file/d/1herShyK8TGajd10tWQqV1JOkSPVwoWyZ/view?usp=sharing) (If you're not sure how, skip this step or click the link.)
+2. Convert nasin-nanpa-4.0.1-UCSUR.otf to [nasin-nanpa-4.0.1-UCSUR.ttf](https://github.com/Hargers/ijo-pi-toki-pona/blob/main/fonts/nasin-nanpa/nasin-nanpa-4.0.1-UCSUR.ttf?raw=1) (If you're not sure how, skip this step or click the link.)
 
 3. Download [zFont 3](https://play.google.com/store/apps/details?id=com.htetznaing.zfont2&gl=US) from the Play Store. *(Other font changing apps such as [#mono_](https://xdaforums.com/t/app-mono_-flipfont-custom-ttf-installer-v2-1-for-samsung-oneui-1-2-3-no-root.4195613/) might work instead)*
 
