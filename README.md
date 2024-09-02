@@ -28,7 +28,7 @@ The current recommended fonts for sitelen pona are:
     
   This font by jan Lepeka (`@rebeccargb`) supports the most recent version of UCSUR (2024-02-20). It's personally my favorite! There are proportional *(glyphs take up varying amounts of space)* and monospaced *(glyphs take up the same amount of space)* versions of the font. Monospaced fonts in general are recommended for sitelen pona (both of the above fonts are monospaced). **sitelen seli kiwen juniko mono**, the monospaced version of sitelen seli kiwen juniko is used in the css below, fyi.
 
-If you are unsure of which font to pick, I would recommend nasin nanpa.
+If you are unsure of which font to pick, I would recommend nasin nanpa. Other UCSUR fonts can be found on [sitelen.pona.la](https://sitelen.pona.la), when sorting by "nasin sitelen li sona e sitelen UCSUR."
 
 Once you have installed any of these fonts you are done, in many applications sitelen pona should render correctly, with the exception of websites, as they do not fall back to sitelen pona. This is an issue, because some applications are actually websites, with a notable example being Discord. 
 
