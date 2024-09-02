@@ -1,53 +1,75 @@
 # version 7.3
 # modified to output ucsur
+# based off of jan Lepeka's ucsur nasin wakalito 1.0
 
 matches:
   # punctuation etc
-  - triggers: ["666 ", "    "]
+  - trigger: "6y "     
     replace: "　" # ! changed to logograph fullwidth space
     
-  - trigger: "aa "
-    replace: "‍" # ! changed to zero width non joiner
+  - trigger: "y6 "
+    replace: "‍" # ! changed to zero width joiner
+    
+  - trigger: "yy66 "
+    replace: "‌" # ! changed to zero width non joiner
  
-  - trigger: "gg "
+  - trigger: "yr6 "
     replace: "󱦕" # ! changed to stacking joiner
   
-  - trigger: "hh "
+  - triggers: ["yd6 ", "ys6 "]
     replace: "󱦖" # ! changed to scaling joiner
+    
+  - trigger: "g "
+    replace: "、︁" # ! changed to ideographic comma
+    
+  - trigger: "g3 "
+    replace: "。︁" # ! changed to ideographic full stop
 
-  - trigger: "6y "
+  - trigger: "a "
     replace: "󱦝" # ! changed to sp colon
     
   - trigger: "3 "
     replace: "󱦜" # ! changed to sp full stop 
   
-  - trigger: "c1 "
+  - trigger: "6 "
     replace: "󱦐" # ! changed to cartouche start
 
-  - trigger: "c2 "
+  - trigger: "y "
     replace: "󱦑" # ! changed to cartouche end
 
-  - trigger: "q1 "
+  - trigger: "gg "
     replace: "「" # ! changed to cjk start quote
 
-  - trigger: "q2 "
+  - trigger: "gg3 "
     replace: "」" # ! changed to cjk end quote
+    
+  - trigger: "w2g "
+    replace: "󱥍󱦗" # ! changed to "start of long pi"
+
+  - trigger: "w23 "
+    replace: "󱦘" # ! changed to "end of long pi"  
   
-  - trigger: "b1 "
+  - triggers: ["2rg ", "r2g "]
     replace: "󱦗" # ! changed to "start left-combining (normal) long glyph"
 
-  - trigger: "b2 "
+  - triggers: ["2r3 ", "r23 "]
     replace: "󱦘" # ! changed to "end left-combining (normal) long glyph"  
   
-  - trigger: "d1 "
+  - triggers: ["24g ", "42g "]
     replace: "󱦚" # ! changed to "start right-combining (reversed) long glyph"
   
-  - trigger: "d2 "
+  - triggers: ["243 ", "423 "]
     replace: "󱦛" # ! changed to "end right-combining (reversed) long glyph" 
 
   # contractions
   - trigger: "wd4 "
     replace: "󱤴󱥡󱤂"
+    
+  - trigger: "ert "
+    replace: "󱤄󱤧󱥔"
+
+  - trigger: "eft "
+    replace: "󱥬󱦖󱥔"
     
   # emoticons
   - triggers: ["a1 ", "ay ", "at "]
@@ -59,8 +81,23 @@ matches:
   - triggers: ["a2 ", "aw "]
     replace: ":|" 
 
-  - trigger: "a5 "
+  - trigger: "a4 "
     replace: ":v"
+    
+  - triggers: ["aw ", "a2 "]
+    replace: ":|"
+    
+  - trigger: "ar "
+    replace: ":>"
+    
+  - triggers: ["a11 ", "att ", "ayy "]
+    replace: ":3"
+    
+  - triggers: ["aw1 ", "a2t ", "awy "]
+    replace: ":D"
+    
+  - triggers: ["a2q ", "awq "]
+    replace: ":P"
 
   # pu
   - triggers: ["we3 ", "w33 "]
@@ -463,13 +500,13 @@ matches:
   - trigger: "w5 "
     replace: "󱦆"
   
-  - triggers: ["es ", "52s "]
+  - triggers: ["es ", "52s ", "52w ", "52w2 ", "522w "]
     replace: "󱦁"
 
   - triggers: ["w3w ", "3ww "]
     replace: "󱦂"
 
-  - triggers: ["wwr ", "rww "]
+  - triggers: ["wwr ", "rww ", "ft ", "tf "]
     replace: "󱦃"
 
   - triggers: ["ef2 ", "fe2 "]
@@ -502,6 +539,9 @@ matches:
 
   - triggers: ["r2eee ", "2reee ", "eeer2 ", "eee2r "]
     replace: "󿫈"
+    
+  - triggers: ["f22 ", "2f2 ", "22f "]
+    replace: "󱦢"
 
   - triggers: ["w22 ", "22w "]
     replace: "󱦠"
