@@ -4,7 +4,7 @@ o sitelen e sitelen pona lon ilo mute a!
 
 ## Render sitelen pona on most desktop applications!
 
-Due to the standardization of codepoints in the UCSUR, you can now render sitelen pona on many desktop applications (Firefox, Discord, etc). In many applications all you need to do is install a UCSUR compatible sitelen pona font, and you are good to go. However there are some quirks, and you need an input engine to be able to easily input these characters, which is the purpose of this guide.
+Due to the standardization of codepoints in the UCSUR, you can now render sitelen pona on many desktop applications (Firefox, Discord, etc). In many applications, all you need to do is install a UCSUR-compatible sitelen pona font, and you are good to go. However there are some quirks, and you need an input engine to be able to easily input these characters, which is the purpose of this guide.
 
 # Fonts
 
@@ -14,7 +14,7 @@ The current recommended fonts for sitelen pona are:
 
   ![an image preview of fairfax hd](./images/fairfaxhd.png)
   
-  This font by jan Lepeka (`@rebeccargb`) supports the latest (2024-02-20) version of UCSUR. It *does not* look a bit nasa, however it is mostly readable.
+  This font by jan Lepeka (`@rebeccargb`) supports the latest (2024-02-20) version of UCSUR.
 
 - [nasin nanpa](https://github.com/ETBCOR/nasin-nanpa)
 
@@ -75,7 +75,7 @@ This method does not work on macOS or mobile devices.
 
 To patch your Discord to correctly render sitelen pona on desktop, we will use the [Vencord client modification](https://vencord.dev/). Start by following the installation guide on their website to install it. After installing Vencord we need to add a CSS snippet, a small snippet of code that tells Vencord to use Fairfax HD or nasin nanpa when sitelen pona is present.
 
-First go to go to Settings, then scroll down to "Vencord", click "Themes", then "Online Themes"
+First, go to go to Settings, then scroll down to "Vencord", click "Themes", then "Online Themes"
 
 Paste this link into the text box:
 
@@ -87,7 +87,7 @@ If the "Validator" section below shows that the theme is valid, you can now exit
 
 ### Browser
 
-<!-- If you use a web browser, you can use the [stylus extension](https://github.com/openstyles/stylus#releases) to add the css code above. Simply click on the extension with a discord tab open, and use the "Write new style as UserCSS" option. Be sure to write it for just "discord.com", as choosing a different URL will make it not work outside of the channel you were looking at. -->
+<!-- If you use a web browser, you can use the [stylus extension](https://github.com/openstyles/stylus#releases) to add the CSS code above. Simply click on the extension with a discord tab open, and use the "Write new style as UserCSS" option. Be sure to write it for just "discord.com", as choosing a different URL will make it not work outside of the channel you were looking at. -->
 
 If you use a web browser, you can use the [stylus extension](https://github.com/openstyles/stylus#releases) to help render sitelen pona. 
 
@@ -95,7 +95,7 @@ Simply install [this userstyle](https://userstyles.world/style/14920/sitelen-pon
 
 ### Android
 
-[This reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/) by jan Elijo (`u/QuantumAgain`) is a wonderful guide on how to get UCSUR on Android. Regarding viewing sitelen pona, here are the listed steps:
+[This Reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/) by jan Elijo (`u/QuantumAgain`) is a wonderful guide on how to get UCSUR on Android. Regarding viewing sitelen pona, here are the listed steps:
 
 
 > :warning: **note**: this changes the system font to something else, if you want to only view sitelen pona on Discord please use Aliucord (the next section)
@@ -182,7 +182,7 @@ For Keyman, jan Lepeka (`@rebeccargb`) has made keyboards for various toki pona 
 
 ### macOS
 
-jan Tepo (`@tbodt`) has made an [input plugin for macOS](./sitelen-pona.inputplugin?raw=1) with modifications by jan Semu (`@jmiibo`) to support UCSUR (download with <kbd>Ctrl</kbd>+<kbd>S</kbd>). Download it, then install it by double clicking. Then enable it in `System Preferences` -> `Keyboard` -> `Input Sources`. You'll find it listed under "Chinese, Simplified".
+jan Tepo (`@tbodt`) has made an [input plugin for macOS](./sitelen-pona.inputplugin?raw=1) with modifications by jan Semu (`@jmiibo`) to support UCSUR (download with <kbd>Ctrl</kbd>+<kbd>S</kbd>). Download it, then install it by double-clicking. Then enable it in `System Preferences` -> `Keyboard` -> `Input Sources`. You'll find it listed under "Chinese, Simplified".
 
 jan Lepeka (`@rebeccargb`) has made keyboards for various toki pona input methods. For install instructions, refer to the [#Keyman](#Keyman) section.
 
@@ -190,7 +190,7 @@ jan Lepeka (`@rebeccargb`) has made keyboards for various toki pona input method
 
 The ~~only~~ (nasin sitelen Wakalito li lon · ilo ante kin li lon) current supported input engine for Linux is ibus, for this to work, you need both `ibus`, and `ibus-tables` installed. For installation commands/instructions, see [this page](https://github.com/ibus/ibus/wiki/ReadMe#install-binary-packages).
 
-> During installation, regarding Ubuntu, feel free to remove `ibus-qt4` from the `apt-get insall` command, which has been removed from Ubuntu's main repository.
+> During installation, regarding Ubuntu, feel free to remove `ibus-qt4` from the `apt-get install` command, which has been removed from Ubuntu's main repository.
 
 jan Komi (`@cominixo`) has created an [ibus input table](./ibus-tables/sitelen-pona-4.0.ibus-table?raw=1) *(click the link & download with <kbd>Ctrl</kbd>+<kbd>S</kbd>)*. Copy it to a directory of your choice, and then open a terminal in the same directory. Run these commands to install it:
 
@@ -205,7 +205,7 @@ Once you have done this, open the ibus preferences (you can do this with the `ib
 
 Finally, if necessary, go to your keyboard settings in your settings application and add a "sitelen pona" input source (the name should be "English (sitelen pona)").
 
-This should result in a new tray icon which indicates which input source you're using—English or sitelen pona. Which keybinding which allows you to switch input sources may depend on your distro. However, on Pop!_OS it is <kbd>Super</kbd> + <kbd>Space</kbd>
+This should result in a new tray icon which indicates which input source you're using—English or sitelen pona. Which keybinding allows you to switch input sources may depend on your distro. However, on Pop!_OS it is <kbd>Super</kbd> + <kbd>Space</kbd>
 
 <details>
 <summary>
@@ -262,7 +262,7 @@ nasin:
 
     - [This file](./sitelen-pona-espanso.yml?raw=1) uses toki pona word triggers, and outputs UCSUR
 
-3. Copy or move the file to Espanso packages folder
+3. Copy or move the file to the Espanso packages folder
 
     - Windows: `C:\Users\<user>\AppData\Roaming\espanso\match\packages`
 	  - (<kbd>Win</kbd>+<kbd>R</kbd>, type `%appdata%` to get to `\Roaming`
@@ -283,7 +283,7 @@ nasin:
 
 ### Keyman
 
-[Keyman](https://keyman.com/) is an input engine created by the Summer Institute of Linguistics, which allows for user-designed keyboards and, by extension, input methods. It is available on Windows, MacOS, Linux, iOS, iPadOS, Android, and in web browser. Four sitelen pona keyboard layouts, implemented by jan Lepeka (`@rebeccargb`), are listed below:
+[Keyman](https://keyman.com/) is an input engine created by the Summer Institute of Linguistics, which allows for user-designed keyboards and, by extension, input methods. It is available on Windows, MacOS, Linux, iOS, iPadOS, Android, and in web browsers. Four sitelen pona keyboard layouts, implemented by jan Lepeka (`@rebeccargb`), are listed below:
 
 - For a sitelen pona taso keyboard, you can use:
 
@@ -300,13 +300,13 @@ Installation instructions are listed below by platform:
   <h4><b>Windows instructions</b></h4>
 </summary>
 
-1. Go to Keyman's download [download page](https://keyman.com/windows/download) and click the green <kbd>Download Now</kbd> button.
+1. Go to Keyman's [download page](https://keyman.com/windows/download) and click the green <kbd>Download Now</kbd> button.
 
 2. A file named `keyman-<version>.exe` will download. Open it.
 
 3. Click <kbd>Install</kbd>, then <kbd>Configuration</kbd>, then <kbd>Download Keyboard...</kbd> in the bottom left corner.
 
-4. On the new window, click <kbd>Enter language or keyboard</kbd>, and type "Sitelen Pona".
+4. In the new window, click <kbd>Enter language or keyboard</kbd>, and type "Sitelen Pona".
 
 5. A list of keyboards will appear. Click on your desired input method, then click <kbd>Install keyboard</kbd> -> <kbd>Install</kbd> -> <kbd>Yes</kbd> -> <kbd>Yes</kbd>.
 
@@ -330,7 +330,7 @@ Installation instructions are listed below by platform:
 
 2. A file named `keyman-<version>.dmg` will download. Open it.
 
-3. Double click the Keyman icon.
+3. Double-click the Keyman icon.
 
 4. A new window will pop up with a generic 3rd party software warning. Click <kbd>Open</kbd> -> <kbd>Install</kbd> -> <kbd>OK</kbd>.
 
@@ -340,7 +340,7 @@ Installation instructions are listed below by platform:
 
 7. In your new window titled "Keyman Configuration," click <kbd>Download Keyboard...</kbd>.
 
-8. On the new window, click <kbd>Enter language or keyboard</kbd>, and type "Sitelen Pona".
+8. In the new window, click <kbd>Enter language or keyboard</kbd>, and type "Sitelen Pona".
 
 9. A list of keyboards will appear. Click on your desired input method -> <kbd>Install keyboard</kbd> -> <kbd>Done</kbd>.
 
@@ -370,16 +370,16 @@ Installation instructions are listed below by platform:
 
 3. A window titled "Get Started" will open. Click the button in the middle titled "Set up Keyman as system-wide keyboard" or "Enable Keyman as system-wide keyboard."
 
-4. On the new window, toggle Keyman as a keyboard.
+4. In the new window, toggle Keyman as a keyboard.
 
     - On iOS, under the section titled "PREFERRED LANGUAGE" click <kbd>Keyboards</kbd> and toggle <kbd>Keyman</kbd>.
     - On Android, toggle <kbd>Keyman</kbd>. A privacy popup will appear, regard it, then press <kbd>OK</kbd> -> <kbd>OK</kbd>.
 
 5. Navigate back to the Keyman app, click <kbd>◦◦◦</kbd> -> <kbd>Settings</kbd> -> <kbd>Installed Languages</kbd> -> <kbd>+</kbd>.
 
-6. On the new window, click <kbd>Enter language or keyboard</kbd>, and type "Sitelen Pona".
+6. In the new window, click <kbd>Enter language or keyboard</kbd>, and type "Sitelen Pona".
 
-7. An list of keyboards will appear. Click on your desired input method.
+7. A list of keyboards will appear. Click on your desired input method.
 
 8. On the next page, click <kbd>Install keyboard</kbd> -> <kbd>Install</kbd> -> <kbd>Done</kbd>.
 
@@ -410,11 +410,11 @@ Installation instructions are listed below by platform:
 
 ### Android
 
-Three input engines for android exist:
+Three input engines for Android exist:
 
 - jan Lepeka's (`@rebeccargb`) Keyman keyboards (refer to the [#Keyman](#Keyman) section)
 
-- [jan Komi's (`@cominixo`)](https://github.com/cominixo/tokiponakeyboard/releases/tag/v0.1-sp) (similar anu better APKs can be found in [this reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/))
+- [jan Komi's (`@cominixo`)](https://github.com/cominixo/tokiponakeyboard/releases/tag/v0.1-sp) (similar anu better APKs can be found in [this Reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/))
  
     - When trying to install the APK, if you get an error that you cannot due to "package conflicts," delete the other Toki Pona Keyboard app and try again.
 
@@ -424,7 +424,7 @@ Three input engines for android exist:
 
 Two input engines for iOS exist: Keyman, with jan Lepeka's (`@rebeccargb`)  keyboards, and a fork of nasin sitelen Wakalito.
 
-For instruction on installing Keyman sitelen pona keyboards, refer to the [#Keyman](#Keyman) section.
+For instructions on installing Keyman sitelen pona keyboards, refer to the [#Keyman](#Keyman) section.
 
 [nasin sitelen Wakalito](https://apps.apple.com/us/app/nasin-sitelen-wakalito/id1569543076) is an app created by jan Likipi (`@lilscribby`), kala pona Tonyu (`@bucketfish`), and jan Tepo (`@tbodt`). It uses Lipamanka's (`@lipamanka`) font, [linja lipamanka](https://lipamanka.gay/linjamanka). A fork of the app exists which changes its output to sitelen pona. The project files for this can be found [here](https://github.com/Hargers/wakalito-ios-UCSUR) and the latest prebuilt `.ipa` app file can be found [here](https://github.com/Hargers/wakalito-ios-UCSUR/releases). This fork of the app is maintained by jan Nasaka (`@harger` lon ilo Siko).
 
@@ -473,7 +473,7 @@ Additionally, triggers were removed for ASCII art, a Discord command, and words 
 
 ### Web
 
-If you are on a device which cannot use these input methods for any reason, [jan Tala (`@at`)](https://github.com/DataKinds) has created a [web based converter](https://ilo-pi-sitelen-pona.glitch.me/) from sitelen Lasina to sitelen pona.
+If you are on a device which cannot use these input methods for any reason, [jan Tala (`@at`)](https://github.com/DataKinds) has created a [web-based converter](https://ilo-pi-sitelen-pona.glitch.me/) from sitelen Lasina to sitelen pona.
 
 A sitelen pona Keyman bookmark can be used for inputting sitelen pona in a web browser. For instructions, refer to the [#Keyman](#Keyman) section.
 
@@ -506,6 +506,6 @@ thank you to
 - kala pona Tonyu
 - jan Likipi
 - Lipamanka
-- tonsi Lijonala (`@not_your_mpdg` lon ilo Siko; `@0x3444ac53` lon lipu Githun)
+- tonsi Lijonala (`@not_your_mpdg` lon ilo Siko; `@0x3444ac53` lon lipu Github)
 
 sina ale li pona wawa a li pana sona e pona anu pali pona a (anu ni tu a a)
